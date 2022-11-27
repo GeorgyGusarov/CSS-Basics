@@ -1,43 +1,38 @@
-* {
+h1, h2, span {
     color: red;
 }
 
-p {
+div p {
     color: green;
 }
 
-h1 {
+div p span {
     color: blue;
 }
 
-.heading1 {
-    text-decoration: underline;
+ul li > span {
+    font-weight: bold;
 }
 
-.heading2 {
-    text-transform: uppercase;
-}
-
-p.fz20 {
-    font-size: 20px;
-}
-
-#heading {
-    font-size: 40px;
-    border: 1px solid black;
-}
-
-q { /* вес селектора 1 - только тэг */
-    color: blue;
-}
-
-/* вес селектора 11 - класс + тэг */
-q.simpleQuote {
+ul li + li {
     color: aqua;
 }
+br ~ p {
+    font-size: 30px;
+}
 
-/* теперь, если мы захотим изменить цитату, то нужно создать селектор весом минимум 12
- добавили body и тперь вес 12 - 1 тэг body, 1 тэг q и 10 класс */
-body q.simpleQuote {
-    color: fuchsia;
+a[target] {
+    background-color: yellow;
+}
+
+a[target="_blank"] {
+    background-color: aqua;
+}
+
+a[href^="https://ge"] {
+    background-color: red;
+}
+
+a[href$=".org"] {
+    background-color: blue;
 }
