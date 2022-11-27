@@ -1,5 +1,43 @@
-@import "main.css";
+* {
+    color: red;
+}
 
-h2 {
+p {
     color: green;
+}
+
+h1 {
+    color: blue;
+}
+
+.heading1 {
+    text-decoration: underline;
+}
+
+.heading2 {
+    text-transform: uppercase;
+}
+
+p.fz20 {
+    font-size: 20px;
+}
+
+#heading {
+    font-size: 40px;
+    border: 1px solid black;
+}
+
+q { /* вес селектора 1 - только тэг */
+    color: blue;
+}
+
+/* вес селектора 11 - класс + тэг */
+q.simpleQuote {
+    color: aqua;
+}
+
+/* теперь, если мы захотим изменить цитату, то нужно создать селектор весом минимум 12
+ добавили body и тперь вес 12 - 1 тэг body, 1 тэг q и 10 класс */
+body q.simpleQuote {
+    color: fuchsia;
 }
