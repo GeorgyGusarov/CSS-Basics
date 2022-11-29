@@ -1,33 +1,26 @@
-/*
-p {
-    background-color: green;
-    color: white;
-    padding: 10px;
+span, div {
+    border: 10px solid red;
+    /*margin: 10px;
+    padding: 10px;*/
+    /*margin: 10px 20px 30px 40px;
+    padding: 10px 20px 30px 40px;*/
+    margin: 10px 20px;
+    /*padding: 10px 20px;*/
+    /*если значения одинаковые, то их можно указывать одной цифрой*/
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
 }
 
-.style1 {
-    background-color: aqua;
-    color: black;
-    border: none !important;
+.test {
+    display: inline;
 }
 
-#style2 {
-    background-color: pink;
-    border: 2px solid black;
-}
-
-p {
-    background-color: grey;
-}
-*/
-
-body {
-    color: red;
-    border: 1px solid black;
-    margin-bottom: 30px;
-}
-
-p {
-    border: inherit;
-    margin: inherit;
+.mar {
+    margin-top: 50px;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    box-sizing: border-box;
 }
