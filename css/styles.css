@@ -1,39 +1,18 @@
-.wrapper,
-.wrapper2,
-.item {
-    padding: 20px;
-    color: white;
+body {
+    font-family: 'Roboto', sans-serif;
 }
 
-.wrapper {
-    background-color: grey;
-    /*overflow: auto;*/
+h1 {
+    color: blueviolet;
+    text-decoration: underline overline line-through; /*+none*/
+    letter-spacing: 10px;
+    word-spacing: 10px;
+    line-height: 100px;
+    text-transform: uppercase; /*+lowercase, capitalize, none*/
+    text-align: center; /*+left, right*/
 }
 
-.wrapper:after {
-    content: '';
-    display: block;
-    clear: both;
+p {
+    text-align: justify;
+    text-indent: 50px;
 }
-
-.wrapper2 {
-    background-color: green;
-}
-
-.item1 {
-    background-color: crimson;
-    float: left;
-}
-
-.item2 {
-    background-color: cyan;
-    float: right;
-}
-
-.item3 {
-    background-color: blueviolet;
-}
-
-/*img {*/
-/*    float: right;*/
-/*}*/
