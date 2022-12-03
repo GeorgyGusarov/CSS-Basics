@@ -1,22 +1,7 @@
-.example {
-    width: 100px;
-    height: 100px;
-    background-color: grey;
-    margin: 10px;
-    /*border-radius: 50px 20px 45px 70px; !* свойство скругления углов. чтобы сделать круг нужно взять половину размера элемента *!*/
-    /*border-radius: 20px/40px;*/
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+.first {
+    display: none;
 }
 
-ul li {
-    list-style-type: circle;
-    list-style-position: inside;
-    /*list-style-image: ;*/
-}
-
-h1 {
-    color: rgba(255, 0, 0, 0.5);
+.second {
+    visibility: hidden;
 }
