@@ -1,29 +1,39 @@
-.overlay {
-    background-color: rgba(0, 0, 0, 0.5);
+.wrapper,
+.wrapper2,
+.item {
+    padding: 20px;
     color: white;
-    width: 100vw;
-    height: 100vh;
-    box-sizing: border-box;
-    position: absolute;
-    top: 0;
-    left: 0;
 }
 
-.modal {
-    border: 2px solid black;
-    width: 300px;
-    height: 100px;
-    background-color: cornflowerblue;
-    font-size: 20px;
-    position: absolute;
-    z-index: 1;
-    overflow: scroll;
+.wrapper {
+    background-color: grey;
+    /*overflow: auto;*/
 }
 
-li {
-    font-size: 2rem;
+.wrapper:after {
+    content: '';
+    display: block;
+    clear: both;
 }
 
-.main {
-    font-size: 2px;
+.wrapper2 {
+    background-color: green;
 }
+
+.item1 {
+    background-color: crimson;
+    float: left;
+}
+
+.item2 {
+    background-color: cyan;
+    float: right;
+}
+
+.item3 {
+    background-color: blueviolet;
+}
+
+/*img {*/
+/*    float: right;*/
+/*}*/
