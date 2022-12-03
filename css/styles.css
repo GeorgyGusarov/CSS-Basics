@@ -1,7 +1,24 @@
-.first {
-    display: none;
+body {
+    padding: 0;
+    margin: 0;
 }
 
-.second {
-    visibility: hidden;
+.wrapper {
+    min-height: 100vh;
+    width: 100%;
+    /*background-color: gainsboro;*/
+    /*background-image: url("https://img.freepik.com/free-photo/analog-city-landscape-with-buildings_23-2149661424.jpg?w=1380&t=st=1670073757~exp=1670074357~hmac=55ddd93c59ac59e6126345a3e4ffe16e6174d2e4e745f53bfbd134a287f54804");*/
+    /*background-size: 300px 150px;*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: 50% 50%;*/
+    /*background-attachment: fixed;*/
+    /*background: gainsboro*/
+    /*url("https://img.freepik.com/free-photo/analog-city-landscape-with-buildings_23-2149661424.jpg?w=1380&t=st=1670073757~exp=1670074357~hmac=55ddd93c59ac59e6126345a3e4ffe16e6174d2e4e745f53bfbd134a287f54804")*/
+    /*50% 50%*/
+    /*no-repeat*/
+    /*fixed;*/
+    background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png")
+    center
+    no-repeat,
+    url("https://img.freepik.com/free-photo/analog-city-landscape-with-buildings_23-2149661424.jpg?w=1380&t=st=1670073757~exp=1670074357~hmac=55ddd93c59ac59e6126345a3e4ffe16e6174d2e4e745f53bfbd134a287f54804");
 }
