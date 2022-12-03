@@ -2,30 +2,21 @@
     width: 100px;
     height: 100px;
     background-color: grey;
-    margin: 20px;
-    border: 10px dotted red;
-    border-right: none;
-    border-left-color: blue;
-    border-bottom-width: 45px;
+    margin: 10px;
+    /*border-radius: 50px 20px 45px 70px; !* свойство скругления углов. чтобы сделать круг нужно взять половину размера элемента *!*/
+    /*border-radius: 20px/40px;*/
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
-.example {
-    outline: 10px solid aqua;
-}
-
-button:focus,
-input:focus {
-    outline: 10px solid red;
-}
-
-.shadow {
-    width: 100px;
-    height: 100px;
-    background-color: grey;
-    margin: 20px;
-    box-shadow: inset 1px 2px 5px blueviolet;
+ul li {
+    list-style-type: circle;
+    list-style-position: inside;
+    /*list-style-image: ;*/
 }
 
 h1 {
-    text-shadow: 1px 2px 5px red;
+    color: rgba(255, 0, 0, 0.5);
 }
